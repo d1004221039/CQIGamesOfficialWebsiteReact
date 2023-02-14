@@ -1,0 +1,86 @@
+.slick-next:before{
+    content: ">";
+    font-size: 72px;
+    font-family: "FontAwesome";
+    font-weight: 700;
+   
+}
+
+.slick-next:hover:before{
+    color: #d94d3a;
+}
+
+.slick-prev:before{
+    content: "<";
+    font-size: 72px;
+    font-family: "FontAwesome";
+}
+
+.slick-prev:hover:before{
+    color: #d94d3a;
+}
+
+
+/***/
+.SliderButton{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;     
+    position: absolute;      
+    top:30%;
+    left:50%;
+    width:110%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+@media all and (max-width: 975px){
+    .SliderButton{
+        width:115%;       
+  
+    }
+}
+
+@media all and (max-width: 800px){
+    .SliderButton{
+        top:80%;        
+        width:150%;
+    }
+}
+
+.SliderButton button{
+    background: none;
+    border: 0;
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.SliderButton button:hover {
+    color: #d94d3a;
+}
+
+
+
+.img_container img{
+    margin: 0 auto ;
+
+}
+
+.owl-text img{
+    margin: 0 auto;
+
+}
+.appstore img {
+    margin: 0 auto;
+}
+
+.googleplay img {
+    margin: 0 auto;
+}
+
+.aliyun img {
+    margin: 0 auto;
+}
+
+.Slider-item{
+    margin: 0 !important;
+}

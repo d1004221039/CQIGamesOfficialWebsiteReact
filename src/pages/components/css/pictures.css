@@ -1,0 +1,20 @@
+.CQI_pictures{
+    background-color: #361F14;
+    /* height: 1000px; */
+}
+.pictures_block{
+    margin: 0 auto;
+}
+.NewYear2023{
+    max-width: 1000px;
+    /* padding: 30px; */
+    /* border: 3px solid #fff; */
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.NewYear2023 .text{
+    line-height: 40px;
+}
+.NewYear2023 img{
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.item-container{
+    overflow: hidden;
+    width: 100%;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container img{
+    width:100%;
+}
+
+/*輪播圖*/
+.slick-dots{
+    bottom:20px;
+}
+
+
+.slick-dots li button:before{
+    font-size: 28px;
+    color:#5b605f;
+    opacity:1;
+}
+.slick-dots li button:hover:before{
+    -webkit-text-stroke: 1.5px rgb(239 117 61);
+}
+
+
+.slick-dots li.slick-active button:before{
+    color: #fff;
+    opacity: 1;
+    font-size: 28px;
+    -webkit-text-stroke: 1.5px rgb(239 117 61);
+}
